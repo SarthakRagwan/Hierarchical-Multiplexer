@@ -1,0 +1,286 @@
+$date
+	Tue Jun 10 01:09:50 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module test $end
+$var wire 1 ! out $end
+$var reg 16 " mux [15:0] $end
+$var reg 4 # sel [3:0] $end
+$scope module dut $end
+$var wire 16 $ in [15:0] $end
+$var wire 4 % sel [3:0] $end
+$var wire 1 ! out $end
+$var wire 4 & intemediate_out [3:0] $end
+$scope module m0 $end
+$var wire 4 ' in [3:0] $end
+$var wire 2 ( sel [1:0] $end
+$var wire 1 ) out $end
+$var wire 2 * intemediate_out [1:0] $end
+$scope module m1 $end
+$var wire 2 + in [1:0] $end
+$var wire 1 , sel $end
+$var wire 1 - out $end
+$upscope $end
+$scope module m2 $end
+$var wire 2 . in [1:0] $end
+$var wire 1 / sel $end
+$var wire 1 ) out $end
+$upscope $end
+$scope module mo $end
+$var wire 2 0 in [1:0] $end
+$var wire 1 1 sel $end
+$var wire 1 2 out $end
+$upscope $end
+$upscope $end
+$scope module m1 $end
+$var wire 4 3 in [3:0] $end
+$var wire 2 4 sel [1:0] $end
+$var wire 1 5 out $end
+$var wire 2 6 intemediate_out [1:0] $end
+$scope module m1 $end
+$var wire 2 7 in [1:0] $end
+$var wire 1 8 sel $end
+$var wire 1 9 out $end
+$upscope $end
+$scope module m2 $end
+$var wire 2 : in [1:0] $end
+$var wire 1 ; sel $end
+$var wire 1 5 out $end
+$upscope $end
+$scope module mo $end
+$var wire 2 < in [1:0] $end
+$var wire 1 = sel $end
+$var wire 1 > out $end
+$upscope $end
+$upscope $end
+$scope module m2 $end
+$var wire 4 ? in [3:0] $end
+$var wire 2 @ sel [1:0] $end
+$var wire 1 A out $end
+$var wire 2 B intemediate_out [1:0] $end
+$scope module m1 $end
+$var wire 2 C in [1:0] $end
+$var wire 1 D sel $end
+$var wire 1 E out $end
+$upscope $end
+$scope module m2 $end
+$var wire 2 F in [1:0] $end
+$var wire 1 G sel $end
+$var wire 1 A out $end
+$upscope $end
+$scope module mo $end
+$var wire 2 H in [1:0] $end
+$var wire 1 I sel $end
+$var wire 1 J out $end
+$upscope $end
+$upscope $end
+$scope module m3 $end
+$var wire 4 K in [3:0] $end
+$var wire 2 L sel [1:0] $end
+$var wire 1 M out $end
+$var wire 2 N intemediate_out [1:0] $end
+$scope module m1 $end
+$var wire 2 O in [1:0] $end
+$var wire 1 P sel $end
+$var wire 1 Q out $end
+$upscope $end
+$scope module m2 $end
+$var wire 2 R in [1:0] $end
+$var wire 1 S sel $end
+$var wire 1 M out $end
+$upscope $end
+$scope module mo $end
+$var wire 2 T in [1:0] $end
+$var wire 1 U sel $end
+$var wire 1 V out $end
+$upscope $end
+$upscope $end
+$scope module m4 $end
+$var wire 4 W in [3:0] $end
+$var wire 2 X sel [1:0] $end
+$var wire 1 ! out $end
+$var wire 2 Y intemediate_out [1:0] $end
+$scope module m1 $end
+$var wire 2 Z in [1:0] $end
+$var wire 1 [ sel $end
+$var wire 1 \ out $end
+$upscope $end
+$scope module m2 $end
+$var wire 2 ] in [1:0] $end
+$var wire 1 ^ sel $end
+$var wire 1 ! out $end
+$upscope $end
+$scope module mo $end
+$var wire 2 _ in [1:0] $end
+$var wire 1 ` sel $end
+$var wire 1 a out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0a
+0`
+b0 _
+0^
+b10 ]
+1\
+0[
+b11 Z
+b10 Y
+b0 X
+b1100 W
+1V
+0U
+b11 T
+0S
+b1 R
+0Q
+0P
+b0 O
+b1 N
+1M
+b0 L
+b11 K
+1J
+0I
+b11 H
+0G
+b11 F
+1E
+0D
+b11 C
+b11 B
+1A
+b0 @
+b1111 ?
+0>
+0=
+b0 <
+0;
+b0 :
+09
+08
+b0 7
+b0 6
+05
+b0 4
+b0 3
+02
+01
+b10 0
+0/
+b0 .
+0-
+0,
+b10 +
+b0 *
+0)
+b0 (
+b1010 '
+b1100 &
+b0 %
+b11111100001010 $
+b0 #
+b11111100001010 "
+0!
+$end
+#50
+b0 Y
+b0 ]
+0\
+b1 Z
+b100 &
+b100 W
+0M
+1/
+1;
+1G
+1S
+1`
+1[
+b10 (
+b10 4
+b10 @
+b10 L
+b1 X
+b110 #
+b110 %
+#100
+1!
+1a
+b1 _
+1)
+b11 Z
+12
+b11 *
+b11 .
+1-
+b1101 &
+b1101 W
+1M
+b11 Y
+b11 ]
+1\
+11
+1,
+0/
+1=
+18
+0;
+1I
+1D
+0G
+1U
+1P
+0S
+0`
+0[
+b1 (
+b1 4
+b1 @
+b1 L
+b0 X
+b1 #
+b1 %
+#150
+b0 _
+b1100 &
+b1100 W
+0)
+02
+b0 *
+b0 .
+0-
+b10 Y
+b10 ]
+0a
+01
+0,
+0=
+08
+0I
+0D
+0U
+0P
+1`
+1[
+1^
+b0 (
+b0 4
+b0 @
+b0 L
+b11 X
+b1100 #
+b1100 %
+#200
